@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+
+    <head>
+        <title>login form</title>
+    </head>
+
+    <link rel="stylesheet" href="assets/“assets/css/login.css">
+
+    <body class="containercenter">
+
+      <div class="center">
+        <form action="trest.html">
+
+            <div class="card-body">
+            <div class="header"><span class="c1">Schools</span><span class="c2">365</span><span class="c3">.in</span></div>
+            <div class="subheader">----- One Stop School Store -----</div><br>
+
+            <div class="form1">
+                <input class="input-box" type="text" id="User Name" name="User Name" placeholder="User Name">
+            </div>
+
+            <div class="form1">
+                <input class="input-box" type="text" id="Password" name="Password" placeholder="Password">
+            </div>
+
+            <div class="form1">
+                <input type="checkbox" id="Remember Me" name="Remember Me">
+                <label for="Remember Me">Remember Me</label>
+            </div>
+            <div class="form1">
+            <button type="Login" style="background-color: #ffa700">Login</button>
+        </div>
+            </div>
+
+        </form>  
+      </div> 
+    </body>
+
+</html>
